@@ -263,3 +263,48 @@ header {
   text-decoration: underline;
   cursor: pointer;
 }
+
+/********************************* ILETISIM *******************************/
+
+.inner-iletisim {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.child-iletisim {
+  flex-basis: 45%;
+}
+.child-iletisim form {
+  background-color: rgb(21, 47, 47);
+  padding: 50px 40px;
+  border-radius: 20px;
+}
+.child-iletisim form input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #24caac;
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  resize: none;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.child-iletisim form input:focus,
+textarea:focus {
+  border: #fff;
+  letter-spacing: 1px;
+}
+
+.child-iletisim form input:last-child {
+  border: 1px solid #24caac;
+  border-radius: 20px;
+  background-color: #24caac;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.child-iletisim form input:last-child:hover {
+  background-color: transparent;
+}
