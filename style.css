@@ -11,14 +11,14 @@ html {
   color: rgb(255, 255, 255);
 }
 img {
-  width: 100%;
+  width: 80%;
 }
 section {
-  padding: 50px 0;
+  padding: 80px 0;
   background-color: rgb(43, 54, 54);
 }
 .section-title {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 .section-title h2 {
   padding: 10px 0;
@@ -138,7 +138,7 @@ header {
   font-size: 20px;
 }
 
-/********************************* YAZILIMLAR *******************************/
+/********************************* SERTIFIKALAR *******************************/
 .inner-sertifikalar {
   display: flex;
   flex-wrap: wrap;
@@ -231,7 +231,7 @@ header {
 .child-basarilar2 .sd4 {
   background-color: darkslategrey;
 }
-/********************************* CCALISTIGIM FIRMALAR *******************************/
+/********************************* CALISTIGIM FIRMALAR *******************************/
 
 .inner-firmalar {
   width: 80%;
@@ -307,4 +307,73 @@ textarea:focus {
 }
 .child-iletisim form input:last-child:hover {
   background-color: transparent;
+}
+
+/********************************* FOOTER *******************************/
+
+footer {
+  background-color: rgb(15, 33, 33);
+}
+.inner-footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 30px 0 20px 0;
+}
+.child-footer {
+  flex-basis: 24%;
+}
+.child-footer h2 {
+  margin-bottom: 20px;
+}
+.social-link {
+  display: flex;
+  margin-top: 20px;
+}
+.social-link li {
+  font-size: 25px;
+  flex-basis: 15%;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.footer-iletisim li {
+  display: flex;
+}
+.footer-iletisim li i {
+  margin-right: 10px;
+}
+.child-footer form {
+  display: flex;
+  flex-direction: column;
+}
+.child-footer form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  background-color: #24caac;
+  border: none;
+}
+.child-footer form input:focus {
+  color: #fff;
+}
+.child-footer form input:last-child {
+  background-color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #24caac;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.child-footer form input:last-child:hover {
+  background-color: transparent;
+  letter-spacing: 1px;
 }
