@@ -17,7 +17,7 @@ img {
   width: 80%;
 }
 section {
-  padding: 100px 0;
+  padding: 80px 0;
   background-color: rgb(43, 54, 54);
 }
 .section-title {
@@ -53,12 +53,13 @@ header {
 }
 .navbar-list {
   display: flex;
-  gap: 3rem;
+  /* gap: 3rem;  */
 }
 /* .navbar-list:first-child {
   background-color: #24caac;
 } */
 .navbar-list li a {
+  margin-left: 25px;
   border-radius: 5px;
   padding: 5px 15px;
   font-size: 20px;
@@ -117,9 +118,11 @@ header {
   align-items: center;
   width: 80%;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 .child-yazilimlar {
-  flex-basis: 30%;
+ 
+  flex-basis: 33%;
   background-color: rgb(21, 47, 47);
   border: 1px solid transparent;
   border-radius: 10px;
@@ -147,7 +150,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 80%;
   margin: 0 auto;
 }

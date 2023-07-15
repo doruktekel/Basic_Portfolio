@@ -22,15 +22,101 @@
   .navbar-list {
     flex-direction: column;
     position: absolute;
-    background-color: rgba(21, 26, 12, 0.489);
+    background-color: rgba(21, 26, 12, 1);
     width: 100%;
     left: 0;
+    padding: 0;
   }
   .navbar-list li a {
     border-bottom: 1px solid #fff;
     display: block;
-    padding: 1px 0;
-    margin: 0 10px;
+    padding: 10px 0;
+    margin: 0 20px;
     border-radius: 0;
+  }
+  .navbar-list li:last-child a {
+    border-bottom: none;
+  }
+  .section-title {
+    margin-bottom: 20px;
+  }
+  .section-title h2 {
+    font-size: 25px;
+  }
+  .inner-anasayfa {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .child-anasayfa {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .child-anasayfa h1 {
+    font-size: 30px;
+  }
+  .child-anasayfa p {
+    font-size: 20px;
+  }
+  .child-anasayfa button {
+    border-radius: 10px;
+    padding: 8px 11px;
+    font-size: 12px;
+  }
+  .child-yazilimlar {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  .child-yazilimlar h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .child-yazilimlar p {
+    font-size: 15px;
+  }
+  .inner-sertifikalar {
+    text-align: center;
+    justify-content: center;
+  }
+  .child-sertifikalar {
+    flex-basis: 65%;
+    margin-bottom: 20px;
+  }
+  .inner-basarilar {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .child-basarilar img {
+    width: 60%;
+    height: 60%;
+  }
+  .child-firmalar {
+    text-align: center;
+    align-items: center;
+    flex-basis: 100%;
+  }
+  .child-iletisim {
+    text-align: center;
+    align-items: center;
+    flex-basis: 100%;
+  }
+  .child-iletisim :first-child {
+    margin-bottom: 20px;
+  }
+  .child-footer {
+    flex-basis: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .child-footer li {
+    flex-basis: 100%;
+  }
+  .footer-iletisim li {
+    justify-content: center;
+    margin-bottom: 5px;
   }
 }
